@@ -3,4 +3,7 @@ fn main() {
     let slice = &nums[0..2];
     let name = "hello world!";
     let name_slice = &name[0..2];
+
+    let full_name = name.as_str();
+    let full_years = years.as_slice();
 }
